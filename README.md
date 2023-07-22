@@ -1,7 +1,7 @@
 # TourismBD Wbsite
 
 client site [click here](https://tourismbd-sany.web.app/)
-server site [click here](https://arcane-sea-19571.herokuapp.com/)
+server site [click here](https://tourismbd.onrender.com/)
 
 some features listed below
 * here is some tour plans available

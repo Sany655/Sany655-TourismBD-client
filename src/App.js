@@ -1,6 +1,6 @@
 import './App.css';
-import React, { useEffect, useState } from 'react';
-import { BrowserRouter, Switch, Link, Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import init from './Firebase/firebase.init';
 import AuthProvider from './context/AuthProvider';
@@ -17,7 +17,7 @@ import ManageBooking from './components/ManageBooking/ManageBooking';
 init()
 function App() {
 
-  axios.defaults.baseURL = 'https://arcane-sea-19571.herokuapp.com/'
+  axios.defaults.baseURL = 'https://tourismbd.onrender.com/'
   // axios.defaults.baseURL = 'http://localhost:5000';
 
   return (
