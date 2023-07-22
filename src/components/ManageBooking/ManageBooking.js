@@ -17,7 +17,8 @@ const ManageBooking = () => {
     }
     function handleApprove(id) {
             axios.put(`/booking/${id}`).then(res => {
-                setStatus(true)
+                // setStatus(true)
+                console.log(res.data)
             })
     }
     return (
@@ -44,7 +45,7 @@ const ManageBooking = () => {
                                 <td className='border'>{book.place.place}</td>
                                 <td className='border'>{book.date}</td>
                                 <td className='border'>{book.status}</td>
-                                <td className='border'><button className="text-white bg-green-600 px-3 pb-1 my-10" onClick={() => handleApprove(book._id)} disabled={book.status==='panding'?false:true}>Approve</button></td>
+                                <td className='border'><button className="text-white bg-green-600 px-3 pb-1 my-10" onClick={() => handleApprove(book._id)} disabled={book.status==='panding'?false:true}>{book.status==='panding'?"Approve":"panding"}</button></td>
                                 <td className='border'><button className="text-white bg-red-600 px-3 pb-1 my-10" onClick={() => handleDelete(book._id)}>Delete</button></td>
                             </tr>
                         ))

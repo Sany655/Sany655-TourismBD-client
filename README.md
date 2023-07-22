@@ -1,6 +1,6 @@
 # TourismBD Wbsite
 
-client site [click here](https://tourismbd-sany.web.app/)
+client site [click here](https://tourismbd.web.app)
 server site [click here](https://tourismbd.onrender.com/)
 
 some features listed below
@@ -11,3 +11,5 @@ some features listed below
 * to book a tour, user have to login via google
 * after login and book a tour, user can manage their bookings
 * they can approve their panding bookings too
+
+<!-- command to deploy firebase deploy --only hosting:tourismbd -->

@@ -17,8 +17,8 @@ import ManageBooking from './components/ManageBooking/ManageBooking';
 init()
 function App() {
 
-  axios.defaults.baseURL = 'https://tourismbd.onrender.com/'
-  // axios.defaults.baseURL = 'http://localhost:5000';
+  // axios.defaults.baseURL = 'https://tourismbd.onrender.com/'
+  axios.defaults.baseURL = 'http://localhost:5000';
 
   return (
     <div className="App">
